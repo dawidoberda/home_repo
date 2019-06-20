@@ -18,3 +18,7 @@ def divide(x, y):
     if y == 0 :
         raise ValueError('Cannot divide by zero')
     return x / y
+
+def pow(x):
+    """Returns square of number"""
+    return x*x
