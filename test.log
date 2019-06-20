@@ -1,0 +1,20 @@
+DEBUG:root:wynik dodawania to 15
+DEBUG:root:wynik odejmowania to 5
+DEBUG:root:wynik mnozenia to 50
+DEBUG:root:wynik dzielenia to 2.0
+2019-06-07 18:17:24,902:DEBUG:wynik dodawania to 15
+2019-06-07 18:17:24,902:DEBUG:wynik odejmowania to 5
+2019-06-07 18:17:24,902:DEBUG:wynik mnozenia to 50
+2019-06-07 18:17:24,902:DEBUG:wynik dzielenia to 2.0
+2019-06-07 18:21:31,228:root:wynik dodawania to 15
+2019-06-07 18:21:31,228:root:wynik odejmowania to 5
+2019-06-07 18:21:31,228:root:wynik mnozenia to 50
+2019-06-07 18:21:31,229:root:wynik dzielenia to 2.0
+2019-06-07 18:29:16,109:__main__:wynik dodawania to 15
+2019-06-07 18:29:16,109:__main__:wynik odejmowania to 5
+2019-06-07 18:29:16,109:__main__:wynik mnozenia to 50
+2019-06-07 18:29:16,109:__main__:wynik dzielenia to 2.0
+2019-06-07 18:33:12,749:__main__:wynik dodawania to 15
+2019-06-07 18:33:12,749:__main__:wynik odejmowania to 5
+2019-06-07 18:33:12,749:__main__:wynik mnozenia to 50
+2019-06-07 18:33:12,749:__main__:wynik dzielenia to 2.0

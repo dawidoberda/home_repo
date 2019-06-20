@@ -1,0 +1,45 @@
+2019-06-07 18:41:03,440:__main__:wynik dodawania to 15
+2019-06-07 18:41:03,441:__main__:wynik odejmowania to 5
+2019-06-07 18:41:03,441:__main__:wynik mnozenia to 50
+2019-06-07 18:41:03,441:__main__:wynik dzielenia to 2.0
+2019-06-07 18:41:07,777:__main__:wynik dodawania to 15
+2019-06-07 18:41:07,777:__main__:wynik odejmowania to 5
+2019-06-07 18:41:07,778:__main__:wynik mnozenia to 50
+2019-06-07 18:41:07,778:__main__:wynik dzielenia to 2.0
+2019-06-07 18:45:00,665:__main__:wynik dodawania to 15
+2019-06-07 18:45:00,665:__main__:wynik odejmowania to 5
+2019-06-07 18:45:00,665:__main__:wynik mnozenia to 50
+2019-06-07 18:45:00,665:__main__:wynik dzielenia to 2.0
+2019-06-07 18:45:10,133:__main__:wynik dodawania to 10
+2019-06-07 18:45:10,133:__main__:wynik odejmowania to 10
+2019-06-07 18:45:10,133:__main__:wynik mnozenia to 0
+2019-06-07 18:45:10,133:__main__:Nie mozna dzielic przez 0
+2019-06-07 18:45:10,133:__main__:wynik dzielenia to None
+2019-06-07 18:45:40,368:__main__:wynik dodawania to 10:INFO
+2019-06-07 18:45:40,369:__main__:wynik odejmowania to 10:INFO
+2019-06-07 18:45:40,369:__main__:wynik mnozenia to 0:INFO
+2019-06-07 18:45:40,369:__main__:Nie mozna dzielic przez 0:ERROR
+2019-06-07 18:45:40,369:__main__:wynik dzielenia to None:INFO
+2019-06-07 18:46:18,182:__main__:INFO:wynik dodawania to 10
+2019-06-07 18:46:18,182:__main__:INFO:wynik odejmowania to 10
+2019-06-07 18:46:18,182:__main__:INFO:wynik mnozenia to 0
+2019-06-07 18:46:18,182:__main__:ERROR:Nie mozna dzielic przez 0
+2019-06-07 18:46:18,182:__main__:INFO:wynik dzielenia to None
+2019-06-07 18:48:25,527:__main__:INFO:wynik dodawania to 10
+2019-06-07 18:48:25,527:__main__:INFO:wynik odejmowania to 10
+2019-06-07 18:48:25,527:__main__:INFO:wynik mnozenia to 0
+2019-06-07 18:48:25,527:__main__:ERROR:Nie mozna dzielic przez 0
+Traceback (most recent call last):
+  File "/home/kvothe/PycharmProjects/coreyBegining/log-sample.py", line 45, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2019-06-07 18:48:25,528:__main__:INFO:wynik dzielenia to None
+2019-06-07 19:27:34,716:__main__:INFO:wynik dodawania to 10
+2019-06-07 19:27:34,716:__main__:INFO:wynik odejmowania to 10
+2019-06-07 19:27:34,716:__main__:INFO:wynik mnozenia to 0
+2019-06-07 19:27:34,716:__main__:ERROR:Nie mozna dzielic przez 0
+Traceback (most recent call last):
+  File "/home/kvothe/PycharmProjects/coreyBegining/log-sample.py", line 46, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2019-06-07 19:27:34,728:__main__:INFO:wynik dzielenia to None
