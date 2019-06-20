@@ -8,14 +8,14 @@ import imghdr #biblioteka do pracy nad zdjeciami
 #     smtp.starttls() #otwiera zaszyfrowane polaczenie
 #     smtp.ehlo() #to trzeba wywolac jeszcze raz po wlaczeniu szyfrowania
 #
-#     smtp.login('dawidoberda@gmail.com', 'annkkrzuxocanrjy') #logujemy do konta
+#     smtp.login('*', '*') #logujemy do konta
 #
 #     subject = 'Temat testowy'
 #     body = 'tekst testowej wiadomosci'
 #
 #     msg = f'Subject: {subject}\n\n{body}' #tak tworzy sie wiadmosc w podstawowym trybie
 #
-#     smtp.sendmail('dawidoberda@gmail.com', 'dawidoberda@gmail.com', msg) #wysylanie maila (nadawca,odbiorca,wiadmosci)
+#     smtp.sendmail('*', '*', msg) #wysylanie maila (nadawca,odbiorca,wiadmosci)
 
 # #Przyklad do localhost (serwer do debugu)
 # with smtplib.SMTP('localhost', 1025) as smtp:
@@ -60,6 +60,6 @@ message.add_attachment(pdf_data, maintype='application', subtype='octet-stream',
 #Bardziej zawansowane wysylanie maili
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp: #context menager do olaczenia z serwerem poczty
     #ten jest juz zakodowany
-    smtp.login('dawidoberda@gmail.com', 'annkkrzuxocanrjy') #logujemy do konta
+    smtp.login('*', '*') #logujemy do konta
 
     smtp.send_message(message) #wysylanie maila (nadawca,odbiorca,wiadmosci)
