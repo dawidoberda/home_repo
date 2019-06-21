@@ -1,4 +1,4 @@
-li = [9, 6, 8, 2, 1, 7, 4, 3, 5, 10, 11]
+li = [9, 6, 8, 2, 1, 7, 4, 3, 5, 10, 11, 12]
 
 s_li = sorted(li) #tworzy przesortowana liste z innej listy
 r_li = sorted(li,reverse=True) #sortuje w odwrotnej kolejnosci
